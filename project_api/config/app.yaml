@@ -1,0 +1,13 @@
+server:
+  name: "project-api"
+  addr: "127.0.0.1:8081"
+zap:
+  debugFileName: "D:\\项目日志\\debug\\project-debug.log"
+  infoFileName: "D:\\项目日志\\info\\project-info.log"
+  warnFileName: "D:\\项目日志\\error\\project-error.log"
+  maxSize: 500
+  maxAge: 28
+  MaxBackups: 3
+etcd:
+  addrs:
+    - "127.0.0.1:2379"
